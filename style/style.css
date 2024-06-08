@@ -1,0 +1,143 @@
+body,p,h1{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+
+    width: 40px;
+    height: auto;
+}
+
+.Logo_name{
+    display: flex;
+    padding-left: 10px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: center;
+    
+}
+
+a{
+    display:flex ;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu p{
+    color: #3b3f42;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu p a{
+    color: #3b3f42;
+    font-family: "Golos Text", Arial, sans-serif;
+    font-size: 18px;
+}
+
+.menu p a:hover{
+    color: rgb(130, 133, 136);
+    transition-duration: 0.4s;
+}
+
+.main{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    background-image: url("https://static.tildacdn.one/tild6432-3163-4230-b161-313663336663/17_1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.square{
+    color: white;
+    width: 50%;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+.square h1{
+    font-size: 44px;
+    font-weight: 700;
+    font-family: Inter, Arial, sans-serif;
+}
+
+.square p{
+    font-family: Golos Text, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.square h1,
+.square p{
+    padding: 30px;
+}
+
+.square p{
+    margin-top:90px ;
+}
+
+.square div{
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.square .button_one{
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgb(210, 255, 150);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Golos Text', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.square .button_one:hover{
+    background-color: rgb(188, 254, 102);
+    transition: 0.5s;
+}
+
+.square .button_two{
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+    border: 0;
+    background-color: rgb(207, 225, 254);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Golos Text', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.square .button_two:hover{
+    background-color: rgb(169, 202, 255);
+    transition: 0.5s;
+}
