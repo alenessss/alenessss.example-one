@@ -152,7 +152,7 @@ a{
 }
 
 .padel{
-    margin: 100px 20px;
+    margin: 110px 20px;
     text-align: center;
 }
 
@@ -160,7 +160,32 @@ a{
     color: var(--text_color);
     font-size: 44px;
     font-family: 'Inter', Arial, sans-serif;
+    font-weight: 700;
+}
 
+.padel-foto{
+    display: flex;
+    padding: 75px 50px ;
+}
+
+.padel-foto img{
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.text-padel{
+    display: block; 
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 130px;
+    text-align: left;
+    color: var(--text_color);
+    font-size: 16px;
+    font-family: 'Golos Text', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 .square .button_two:hover{
