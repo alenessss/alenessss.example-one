@@ -1,42 +1,49 @@
-:root{
-    --text_color:#3b3f42;
+:root {
+    --text_color: #3b3f42;
+    --grean:rgb(210, 255, 150);
 }
 
-body,p,h1{
+body,
+p,
+h1 {
     margin: 0;
     padding: 0;
-    
+
 }
 
-header{
+body{
+    color: #3b3f420e;
+}
+
+header {
     margin: 20px;
     padding: 0px 5px;
     display: flex;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     display: flex;
 }
 
-.logo img{
+.logo img {
 
     width: 40px;
     height: auto;
 }
 
-.Logo_name{
+.Logo_name {
     display: flex;
     padding-left: 10px;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: bold;
     font-size: 15px;
     align-items: center;
-    
+
 }
 
-a{
-    display:flex ;
+a {
+    display: flex;
     align-items: center;
     color: var(--text_color);
     text-decoration: none;
@@ -47,24 +54,24 @@ a{
     align-items: center;
 }
 
-.menu p{
+.menu p {
     color: var(--text_color);
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.menu p a{
+.menu p a {
     color: var(--text_color);
     font-family: "Golos Text", Arial, sans-serif;
     font-size: 18px;
 }
 
-.menu p a:hover{
+.menu p a:hover {
     color: rgb(130, 133, 136);
     transition-duration: 0.4s;
 }
 
-.languagu{
+.languagu {
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -74,56 +81,56 @@ a{
     color: var(--text_color);
 }
 
-.main{
+.main {
     padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 30px;
     border-radius: 30px;
     background-image: url("https://static.tildacdn.one/tild6432-3163-4230-b161-313663336663/17_1.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.square{
+.square {
     color: white;
     width: 50%;
     backdrop-filter: blur(10px);
     border-radius: 30px;
 }
 
-.square h1{
+.square h1 {
     font-size: 44px;
     font-weight: 700;
     font-family: Inter, Arial, sans-serif;
 }
 
-.square p{
+.square p {
     font-family: Golos Text, Arial, sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .square h1,
-.square p{
+.square p {
     padding: 30px;
 }
 
-.square p{
-    margin-top:90px ;
+.square p {
+    margin-top: 90px;
 }
 
-.square div{
+.square div {
     padding: 30px;
     padding-top: 0px;
 }
 
-.square .button_one{
+.button_one {
     height: 50px;
     width: auto;
     border-radius: 30px;
     border: 0;
-    background-color: rgb(210, 255, 150);
+    background-color: var(--grean);
     padding-left: 30px;
     padding-right: 30px;
     margin-right: 10px;
@@ -133,12 +140,12 @@ a{
     letter-spacing: 0.1em;
 }
 
-.square .button_one:hover{
+.button_one:hover {
     background-color: rgb(173, 255, 67);
     transition: 0.5s;
 }
 
-.square .button_two{
+.button_two {
     height: 50px;
     width: auto;
     border-radius: 30px;
@@ -152,37 +159,37 @@ a{
     letter-spacing: 0.1em;
 }
 
-.square .button_two:hover{
+.button_two:hover {
     background-color: rgb(153, 192, 255);
     transition: 0.5s;
 }
 
-.padel{
+.padel {
     margin: 110px 20px;
     text-align: center;
 }
 
-.padel h1{
+.padel h1 {
     color: var(--text_color);
     font-size: 44px;
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 700;
 }
 
-.padel-foto{
+.padel-foto {
     display: flex;
-    padding: 75px 50px ;
+    padding: 75px 50px;
 }
 
-.padel-foto img{
+.padel-foto img {
     width: 23%;
     height: auto;
     border-radius: 10px;
     margin-left: 20px;
 }
 
-.text-padel{
-    display: block; 
+.text-padel {
+    display: block;
     width: 300px;
     margin-top: 40px;
     margin-left: 130px;
@@ -194,14 +201,14 @@ a{
     line-height: 20px;
 }
 
-.padel-foto-two{
+.padel-foto-two {
     display: flex;
     flex-direction: row-reverse;
-    padding: 0px 50px ;
+    padding: 0px 50px;
 
 }
 
-.padel-foto-two img{
+.padel-foto-two img {
     width: 23%;
     height: auto;
     border-radius: 10px;
@@ -218,4 +225,74 @@ a{
     font-family: 'Golos Text', Arial, sans-serif;
     font-weight: 500;
     line-height: 20px;
+}
+
+.button-padel {
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+    border: 0;
+    background-color: var(--grean);
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Golos Text', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.button-padel:hover{
+    background-color: rgb(173, 255, 67);
+    transition: 0.5s;
+}
+
+.window-two{
+    margin-top: 110px;
+    border-radius: 30px;
+    background-color: var(--grean);
+}
+
+.windows-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+.window-two h1{
+    color: var(--text_color);
+    text-align: left;
+    font-size: 44px;
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.window-two p{
+    color: var(--text_color);
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Golos Text', Arial, sans-serif;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.windows{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 100px;
+}
+
+.windows div{
+    background-color: white;
+    border-radius: 30px;
+    width: 410px;
+    height: 410px;
 }
