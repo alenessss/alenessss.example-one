@@ -296,3 +296,22 @@ a {
     width: 410px;
     height: 410px;
 }
+
+.one{
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-end;
+    padding: 0px 0px 40px 40px;
+    text-align: left;    
+}
+
+.one p{
+    font-size: 30px;
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.one:hover{
+    background-image: url("https://static.tildacdn.one/tild6634-6463-4135-b432-353234646662/152_1.jpg");
+}
