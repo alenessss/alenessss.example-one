@@ -22,6 +22,10 @@ header {
     justify-content: space-between;
 }
 
+.w30{
+    width: 47%;
+}
+
 .logo {
     display: flex;
 }
@@ -52,6 +56,7 @@ a {
 .menu {
     display: flex;
     align-items: center;
+    
 }
 
 .menu p {
@@ -311,6 +316,9 @@ a {
     line-height: 1.1;
     font-weight: 700;
 }
+
+.one:hover{
+    background-image: url("https://static.tildacdn.one/tild6634-6463-4135-b432-353234646662/152_1.jpg");
 
 .one:hover{
     background-image: url("https://static.tildacdn.one/tild6634-6463-4135-b432-353234646662/152_1.jpg");
